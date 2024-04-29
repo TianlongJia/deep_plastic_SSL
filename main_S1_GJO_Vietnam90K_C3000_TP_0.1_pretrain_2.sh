@@ -25,14 +25,14 @@ previous=$(/usr/bin/nvidia-smi --query-accounted-apps='gpu_utilization,mem_utili
 conda activate vissl_env
 srun python tools/run_distributed_engines.py \
   hydra.verbose=true \
-  config=pretrain/swav/swav_1_gpu_resnet50.yaml \
+  config=pretrain/swav/swav_1_gpu_resnet50/C3000_TP_0.1.yaml \
   config.DATA.TRAIN.DATASET_NAMES=[GJO] \
   config.DATA.TRAIN.DATA_SOURCES=[disk_folder] \
   config.DATA.TRAIN.DATA_PATHS=["/scratch/tjian/Data/GJO_SSL/images_tiles_224_pretrain/train"] \
-  config.OPTIMIZER.num_epochs=100 \
-  config.CHECKPOINT.DIR="/scratch/tjian/PythonProject/deep_plastic_SSL/checkpoints/train_weights/Paper_4/Vitenam/Self_train/vissl" \
+  config.OPTIMIZER.num_epochs=10 \
+  config.CHECKPOINT.DIR="/scratch/tjian/PythonProject/deep_plastic_SSL/checkpoints/train_weights/Paper_4/Vitenam/Self_train_GJO_Vit_90K/C3000_TP_0.1/vissl_2" \
   config.HOOKS.TENSORBOARD_SETUP.USE_TENSORBOARD=true \
-  config.WEIGHTS_INIT.PARAMS_FILE="/scratch/tjian/PythonProject/deep_plastic_SSL/checkpoints/pretrained_model/R-50.pkl" \
+  config.WEIGHTS_INIT.PARAMS_FILE="/scratch/tjian/PythonProject/deep_plastic_SSL/checkpoints/train_weights/Paper_4/Vitenam/Self_train_GJO_Vit_90K/C3000_TP_0.1/vissl_1/model_phase90.torch" \
   config.WEIGHTS_INIT.APPEND_PREFIX="trunk._feature_blocks."
   
 
