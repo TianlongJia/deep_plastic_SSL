@@ -7,6 +7,9 @@ This repository contains the code used for the following publication:
 
 The aim of this study is to propose a semi-supervised learning method to detect floating litter, and assess its effectiveness and generalization capability. We also test against the same Faster R-CNN architecture trained using Supervised Learning (SL) method alone and ImageNet pre-trained weights. 
 
+
+![summary_figure](figures/SSL.jpg)
+
 Acknowledgement:
 
 This project was inspired by the work of Facebook AI Research and the [Vissl v0.1.6](https://github.com/facebookresearch/vissl) library. 
