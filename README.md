@@ -2,7 +2,7 @@
 
 This repository contains the code used for the following publication:
 ```bash
-  XXXXXXXX
+Jia, T., de Vries, R., Kapelan, Z., van Emmerik, T. H., & Taormina, R. (2024). Detecting floating litter in freshwater bodies with semi-supervised deep learning. Water Research, 266, 122405.
 ```
 
 The aim of this study is to propose a semi-supervised learning method to detect floating litter, and assess its effectiveness and generalization capability. We also test against the same Faster R-CNN architecture trained using Supervised Learning (SL) method alone and ImageNet pre-trained weights. 
@@ -32,7 +32,15 @@ See [`INSTALL.md`](./INSTALL.md).
 If you find this project is useful in your research or wish to refer to the paper, please use the following BibTeX entry.
 
 ```BibTeX
-XXXXX
+@article{jia2024detecting,
+  title={Detecting floating litter in freshwater bodies with semi-supervised deep learning},
+  author={Jia, Tianlong and de Vries, Rinze and Kapelan, Zoran and van Emmerik, Tim HM and Taormina, Riccardo},
+  journal={Water Research},
+  volume={266},
+  pages={122405},
+  year={2024},
+  publisher={Elsevier}
+}
 ```
 
 ## Contact
