@@ -2,7 +2,7 @@
 
 This repository contains the code used for the following publication:
 ```bash
-Jia, T., de Vries, R., Kapelan, Z., van Emmerik, T. H., & Taormina, R. (2024). Detecting floating litter in freshwater bodies with semi-supervised deep learning. Water Research, 266, 122405.
+Jia, T., de Vries, R., Kapelan, Z., van Emmerik, T. H., & Taormina, R. (2024). Detecting floating litter in freshwater bodies with semi-supervised deep learning. Water Research, 266, 122405..
 ```
 
 The aim of this study is to propose a semi-supervised learning method to detect floating litter, and assess its effectiveness and generalization capability. We also test against the same Faster R-CNN architecture trained using Supervised Learning (SL) method alone and ImageNet pre-trained weights. 
