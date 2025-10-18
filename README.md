@@ -21,11 +21,10 @@ See [`INSTALL.md`](./INSTALL.md).
 
 ## Usage
 
--  `main_Self_Supervised_Train_.ipynb` is the code for self-supervised learning methods.
-- `main_Fine_tune_for_object_detction.ipynb` is the code for fine-tuning the model in a supervised learning method for object detection.
--  `main_Evaluate_Object_Detection.ipynb` is the code for evaluating model performnaces on test sets for object detection (e.g., AP50, and predicting images).
--  `main_Confusion_matrix_OD.ipynb` is the code for outputing confusion matrix on test sets for object detection (e.g., TP, FP, and FN).
-
+-  Step 1: Pre-train models using a self-supervised learning method, i.e., SwAV, (see `main_Self_Supervised_Train_.ipynb`).
+-  Step 2: Fine-tune the models obtained from Step 1 using in a supervised learning method for object detection (see `main_Fine_tune_for_object_detction.ipynb`).
+-  Step 3: Evaluate model performnaces on test sets for object detection, e.g., AP50, and predicting images (see `main_Evaluate_Object_Detection.ipynb`).
+-  Step 4: Output confusion matrix on test sets for object detection, e.g., TP, FP, and FN (see `main_Confusion_matrix_OD.ipynb`).
 
 ## Citing this project or paper
 
