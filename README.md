@@ -50,4 +50,4 @@ in freshwater bodies with semi-supervised deep learning. Water Research, 266, 12
 
 ## Contact
 
-➡️ Tianlong Jia ([T.Jia@tudelft.nl](mailto:T.Jia@tudelft.nl))
+➡️ Tianlong Jia ([tianlong.jia@kit.edu](mailto:tianlong.jia@kit.edu))
